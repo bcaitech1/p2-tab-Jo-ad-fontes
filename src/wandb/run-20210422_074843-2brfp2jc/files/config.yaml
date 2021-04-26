@@ -1,0 +1,70 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.26
+    framework: lightgbm
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.7
+    t:
+      1:
+      - 5
+      - 6
+      - 7
+      - 8
+      2:
+      - 5
+      - 6
+      - 7
+      - 8
+      4: 3.7.7
+      5: 0.10.26
+      8:
+      - 5
+bagging_fraction:
+  desc: null
+  value: 0.6
+bagging_freq:
+  desc: null
+  value: 4
+boosting_type:
+  desc: null
+  value: gbdt
+early_stopping_rounds:
+  desc: null
+  value: 100
+feature_fraction:
+  desc: null
+  value: 0.7
+learning_rate:
+  desc: null
+  value: 0.024
+max_bin:
+  desc: null
+  value: 198
+metric:
+  desc: null
+  value: auc
+min_data_in_leaf:
+  desc: null
+  value: 28
+n_estimators:
+  desc: null
+  value: 10000
+n_jobs:
+  desc: null
+  value: -1
+num_leaves:
+  desc: null
+  value: 8
+objective:
+  desc: null
+  value: binary
+seed:
+  desc: null
+  value: 42
+verbose:
+  desc: null
+  value: -1

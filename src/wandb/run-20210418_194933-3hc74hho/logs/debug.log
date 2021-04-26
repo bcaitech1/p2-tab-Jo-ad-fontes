@@ -1,0 +1,139 @@
+2021-04-18 19:49:33,361 INFO    MainThread:14533 [wandb_setup.py:_flush():69] setting env: {}
+2021-04-18 19:49:33,361 INFO    MainThread:14533 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-04-18 19:49:33,361 INFO    MainThread:14533 [wandb_init.py:_log_setup():336] Logging user logs to /opt/ml/code/src/wandb/run-20210418_194933-3hc74hho/logs/debug.log
+2021-04-18 19:49:33,361 INFO    MainThread:14533 [wandb_init.py:_log_setup():337] Logging internal logs to /opt/ml/code/src/wandb/run-20210418_194933-3hc74hho/logs/debug-internal.log
+2021-04-18 19:49:33,361 INFO    MainThread:14533 [wandb_init.py:init():369] calling init triggers
+2021-04-18 19:49:33,361 INFO    MainThread:14533 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-04-18 19:49:33,362 INFO    MainThread:14533 [wandb_init.py:init():418] starting backend
+2021-04-18 19:49:33,362 INFO    MainThread:14533 [backend.py:_multiprocessing_setup():71] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-04-18 19:49:33,378 INFO    MainThread:14533 [backend.py:ensure_launched():123] starting backend process...
+2021-04-18 19:49:33,382 INFO    MainThread:14533 [backend.py:ensure_launched():128] started backend process with pid: 14551
+2021-04-18 19:49:33,384 INFO    MainThread:14533 [wandb_init.py:init():423] backend started and connected
+2021-04-18 19:49:33,385 INFO    MainThread:14533 [wandb_init.py:init():465] updated telemetry
+2021-04-18 19:49:33,385 INFO    MainThread:14533 [wandb_init.py:init():484] communicating current version
+2021-04-18 19:49:34,173 INFO    MainThread:14533 [wandb_init.py:init():489] got version response 
+2021-04-18 19:49:34,173 INFO    MainThread:14533 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-04-18 19:49:34,389 INFO    MainThread:14533 [wandb_init.py:init():522] starting run threads in backend
+2021-04-18 19:49:34,411 INFO    MainThread:14533 [wandb_run.py:_console_start():1524] atexit reg
+2021-04-18 19:49:34,411 INFO    MainThread:14533 [wandb_run.py:_redirect():1371] redirect: SettingsConsole.REDIRECT
+2021-04-18 19:49:34,411 INFO    MainThread:14533 [wandb_run.py:_redirect():1376] Redirecting console.
+2021-04-18 19:49:34,414 INFO    MainThread:14533 [wandb_run.py:_redirect():1438] Redirects installed.
+2021-04-18 19:49:34,414 INFO    MainThread:14533 [wandb_init.py:init():546] run started, returning control to user process
+2021-04-18 19:50:42,268 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:42,620 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:43,131 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:43,747 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:44,227 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:44,676 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:45,176 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:45,527 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:46,222 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:46,584 INFO    MainThread:14533 [wandb_run.py:_config_callback():749] config_cb None None {'objective': 'binary', 'boosting_type': 'gbdt', 'metric': 'auc', 'feature_fraction': 0.8, 'bagging_fraction': 0.8, 'bagging_freq': 1, 'n_estimators': 10000, 'early_stopping_rounds': 100, 'seed': 42, 'verbose': -1, 'n_jobs': -1}
+2021-04-18 19:50:47,137 INFO    MainThread:14533 [wandb_run.py:_atexit_cleanup():1494] got exitcode: 0
+2021-04-18 19:50:47,138 INFO    MainThread:14533 [wandb_run.py:_restore():1466] restore
+2021-04-18 19:50:49,363 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 82003
+  total_bytes: 82003
+}
+
+2021-04-18 19:50:49,477 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 82003
+  total_bytes: 82003
+}
+
+2021-04-18 19:50:50,432 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 82003
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:50,836 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 85113
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:50,938 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 85113
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:51,042 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 85837
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:51,144 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 85837
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:51,246 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 85837
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:51,349 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 85837
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:51,451 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 85837
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:51,555 INFO    MainThread:14533 [wandb_run.py:_wait_for_finish():1616] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+  media_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 85837
+  total_bytes: 85837
+}
+
+2021-04-18 19:50:52,654 INFO    MainThread:14533 [wandb_run.py:_show_summary():1771] rendering summary
+2021-04-18 19:50:52,655 INFO    MainThread:14533 [wandb_run.py:_show_history():1809] rendering history
+2021-04-18 19:50:52,656 INFO    MainThread:14533 [wandb_run.py:_show_files():1838] logging synced files

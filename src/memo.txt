@@ -1,0 +1,10 @@
+# 'order_ts_diff-min' 제거 v1.1
+    python3 inference.py --FILE_NAME 'best_v1.1' --MODEL 'xgb';
+    python3 inference.py --FILE_NAME 'best_v1.1' --MODEL 'cat';
+    python3 inference.py --FILE_NAME 'best_v1.1' --MODEL 'lgbm';
+
+
+# preprocessing data pad, d 제거 v1.3 > train_update.csv
+python3 inference.py --FILE_NAME 'best_v1.3' --MODEL 'xgb';
+python3 inference.py --FILE_NAME 'best_v1.3' --MODEL 'cat';
+python3 inference.py --FILE_NAME 'best_v1.3' --MODEL 'lgbm';

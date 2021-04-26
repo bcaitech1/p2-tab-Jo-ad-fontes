@@ -1,0 +1,46 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.26
+    framework: lightgbm
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.7
+    t:
+      1:
+      - 5
+      - 6
+      - 7
+      - 8
+      2:
+      - 5
+      - 6
+      - 7
+      - 8
+      4: 3.7.7
+      5: 0.10.26
+      8:
+      - 5
+colsample_bytree:
+  desc: null
+  value: 0.7173762029018879
+eval_metric:
+  desc: null
+  value: auc
+learning_rate:
+  desc: null
+  value: 0.02211903224420238
+max_depth:
+  desc: null
+  value: 6
+objective:
+  desc: null
+  value: binary:logistic
+seed:
+  desc: null
+  value: 42
+subsample:
+  desc: null
+  value: 0.8450778548079342

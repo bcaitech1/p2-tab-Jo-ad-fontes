@@ -1,0 +1,21 @@
+{
+    "os": "Linux-4.4.0-59-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.7",
+    "heartbeatAt": "2021-04-21T16:18:10.769201",
+    "startedAt": "2021-04-21T16:18:09.611181",
+    "docker": null,
+    "gpu": "Tesla P40",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--MODEL",
+        "cat"
+    ],
+    "state": "running",
+    "program": "inference.py",
+    "codePath": "inference.py",
+    "host": "32624626d15d",
+    "username": "root",
+    "executable": "/opt/conda/bin/python3"
+}

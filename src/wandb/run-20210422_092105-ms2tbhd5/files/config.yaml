@@ -1,0 +1,58 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.26
+    framework: lightgbm
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.7
+    t:
+      1:
+      - 5
+      - 6
+      - 7
+      - 8
+      2:
+      - 5
+      - 6
+      - 7
+      - 8
+      4: 3.7.7
+      5: 0.10.26
+      8:
+      - 5
+boosting_type:
+  desc: null
+  value: Ordered
+bootstrap_type:
+  desc: null
+  value: MVS
+depth:
+  desc: null
+  value: 7
+eval_metric:
+  desc: null
+  value: AUC
+learning_rate:
+  desc: null
+  value: 0.09
+loss_function:
+  desc: null
+  value: Logloss
+metric_period:
+  desc: null
+  value: 100
+n_estimators:
+  desc: null
+  value: 10000
+od_wait:
+  desc: null
+  value: 100
+random_seed:
+  desc: null
+  value: 42
+rsm:
+  desc: null
+  value: 0.66
